@@ -1,0 +1,127 @@
+========== EDA Summary ==========
+Shape: (1000, 7)
+
+Data Types:
+time_step        int64
+bus_voltages    object
+bus_angles      object
+load_p          object
+load_q          object
+gen_p           object
+gen_q           object
+dtype: object
+
+Missing Values:
+time_step       0
+bus_voltages    0
+bus_angles      0
+load_p          0
+load_q          0
+gen_p           0
+gen_q           0
+dtype: int64
+
+Sample Rows:
+   time_step                                       bus_voltages  \
+0          0  [1.06, 1.0450000000000004, 1.0100000000000002,...   
+1          1  [1.06, 1.045, 1.01, 1.0105663409331898, 1.0127...   
+2          2  [1.06, 1.0449999999999997, 1.01, 0.99948161644...   
+
+                                          bus_angles  \
+0  [0.0, -5.689938615261936, -14.321740579290003,...   
+1  [0.0, -6.57357321457588, -16.310933714152196, ...   
+2  [0.0, -8.836314978861031, -21.378367630264485,...   
+
+                                              load_p  \
+0  [23.96211142327013, 104.01985696184546, 52.782...   
+1  [26.74193049294084, 116.0870899739644, 58.9061...   
+2  [33.62082282377392, 145.9484566820048, 74.0587...   
+
+                                              load_q                  gen_p  \
+0  [14.023908528826299, 20.980650554936982, -4.30...  [40.0, 0.0, 0.0, 0.0]   
+1  [15.650807247020676, 23.414593519164793, -4.80...  [40.0, 0.0, 0.0, 0.0]   
+2  [19.676702758614233, 29.43758680422602, -6.042...  [40.0, 0.0, 0.0, 0.0]   
+
+                                               gen_q  
+0  [54.06772755189817, 32.90656438591154, 17.9511...  
+1  [68.03302118822202, 42.879219944267376, 24.657...  
+2  [107.94684349953482, 69.3236913189462, 42.7456...  
+
+--- Descriptive Statistics ---
+
+time_step:
+count    1000.000000
+mean      499.500000
+std       288.819436
+min         0.000000
+25%       249.750000
+50%       499.500000
+75%       749.250000
+max       999.000000
+Name: time_step, dtype: float64
+
+bus_voltages_length_stats:
+count    1000.0
+mean       14.0
+std         0.0
+min        14.0
+25%        14.0
+50%        14.0
+75%        14.0
+max        14.0
+Name: bus_voltages, dtype: float64
+
+bus_angles_length_stats:
+count    1000.0
+mean       14.0
+std         0.0
+min        14.0
+25%        14.0
+50%        14.0
+75%        14.0
+max        14.0
+Name: bus_angles, dtype: float64
+
+load_p_length_stats:
+count    1000.0
+mean       11.0
+std         0.0
+min        11.0
+25%        11.0
+50%        11.0
+75%        11.0
+max        11.0
+Name: load_p, dtype: float64
+
+load_q_length_stats:
+count    1000.0
+mean       11.0
+std         0.0
+min        11.0
+25%        11.0
+50%        11.0
+75%        11.0
+max        11.0
+Name: load_q, dtype: float64
+
+gen_p_length_stats:
+count    1000.0
+mean        4.0
+std         0.0
+min         4.0
+25%         4.0
+50%         4.0
+75%         4.0
+max         4.0
+Name: gen_p, dtype: float64
+
+gen_q_length_stats:
+count    1000.0
+mean        4.0
+std         0.0
+min         4.0
+25%         4.0
+50%         4.0
+75%         4.0
+max         4.0
+Name: gen_q, dtype: float64
